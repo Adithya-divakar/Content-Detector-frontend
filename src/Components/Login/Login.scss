@@ -1,0 +1,67 @@
+.login-container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    padding: 25px;
+    background-color: white;
+}
+
+
+.form-group {
+    margin: 10px;
+
+    input {
+        padding: 16px 47px;
+        border: none;
+        font-size: 13px;
+        outline: none;
+        border-radius: 2px;
+        /* box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 2px 2px; */
+        border-bottom: 1px solid;
+    }
+
+    span {
+        left: 21px;
+        position: absolute;
+        top: 10px;
+        color: #d0d0d0;
+    }
+    text-align: center;
+
+    button {
+        &:hover{
+            outline: 1px solid #dadada;
+            // background-color: #dbe2e2;
+            background-color: #45619b;
+        }
+        background-color: #4267b2;
+    border: none;
+    font-size: 13px;
+    color: white;
+    outline: none;
+    border-radius: 56px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 13px 97px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    }
+
+    p {
+        text-transform: uppercase;
+
+        &:first-child {
+            color: #afb1b3;
+            font-size: 15px;
+        }
+
+        &:last-child {
+            font-weight: 800;
+            font-size: 16px;
+            // color: blue;
+        }
+    }
+    h2{
+        color: #4267b2;
+    /* font-family: 'Baloo Bhaina 2'; */
+    font-size: 28px;
+    }
+}

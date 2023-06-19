@@ -1,0 +1,85 @@
+.post-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.post-header {
+  background-color: #4267b2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0.5rem 1rem;
+}
+
+.post-body {
+  overflow: auto;
+  background-color: rgba(73, 106, 175, 0.168627451);
+  flex: 1 1;
+}
+.post-body .posting-container {
+  background-color: white;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 18px;
+  border-top-right-radius: 10px;
+  width: 300px;
+  margin: 10px 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 0px;
+}
+.post-body .first-section {
+  display: flex;
+  width: 100%;
+  font-size: 11px;
+  align-items: center;
+}
+.post-body .first-section img {
+  width: 22px;
+  height: 22px;
+  border-radius: 12px;
+}
+.post-body .first-section p {
+  margin: 0px 0px;
+}
+.post-body .content-section {
+  margin: 9px 0px;
+  word-wrap: break-word;
+}
+.post-body .content-section p {
+  color: black;
+  line-height: 21px;
+}
+.post-body .image-section img {
+  width: 300px;
+  border-radius: 4px;
+  height: 250px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #4267b2;
+  padding: 7px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.post-footer input {
+  border: none;
+  padding: 10px 12px;
+  outline: none;
+  width: 82%;
+}
+.post-footer button {
+  border: none;
+  padding: 10px 35px;
+  /* box-shadow: rgb(204 102 102 / 24%) 0px 3px 8px; */
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0c0d3d;
+  letter-spacing: 1px;
+  background-color: rgb(176, 191, 217);
+}
+.post-footer button:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=Post.css.map */
